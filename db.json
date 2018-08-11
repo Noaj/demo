@@ -178,33 +178,6 @@
           }
         ]
       }
-    },
-    {
-      "id": 1,
-      "institutionId": 1,
-      "name": "New event 4543322",
-      "description": "12e 1e2rf 23 sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "userId": 2,
-      "startDate": "08/18/2018",
-      "start": "3:00 PM",
-      "ends": "7:00 PM",
-      "agenda": {
-        "title": "ergergre gwgw",
-        "description": "This is a descr",
-        "items": [{
-            "note": "weweew",
-            "time": "3:00 PM"
-          },
-          {
-            "note": "fgdbhg ",
-            "time": "3:40 PM"
-          },
-          {
-            "note": "ioliodsfb",
-            "time": "6:00 PM"
-          }
-        ]
-      }
     }
   ],
   "tasks": [{
