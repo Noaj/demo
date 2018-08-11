@@ -22,30 +22,6 @@
         {"id": 22, "url": "https://www.denverpost.com/wp-content/uploads/2018/06/964676792.jpg?w=525", "userId": 1}
       ],
       "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-    },
-    {
-      "institutionId": 1,  
-      "userId": 2,
-      "id": 3,
-      "type": "Article",
-      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "files": [
-        {"id": 1, "url": "https://www.mercurynews.com/wp-content/uploads/2018/05/bng-l-warriors-0601-1571-e1527834123801.jpg", "userId": 1},
-        {"id": 22, "url": "https://www.denverpost.com/wp-content/uploads/2018/06/964676792.jpg?w=525", "userId": 1}
-      ],
-      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-    },
-    {
-      "institutionId": 1,  
-      "userId": 3,
-      "id": 4,
-      "type": "Article",
-      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "files": [
-        {"id": 1, "url": "https://www.mercurynews.com/wp-content/uploads/2018/05/bng-l-warriors-0601-1571-e1527834123801.jpg", "userId": 1},
-        {"id": 22, "url": "https://www.denverpost.com/wp-content/uploads/2018/06/964676792.jpg?w=525", "userId": 1}
-      ],
-      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     }
   ],
   "profile": {
@@ -215,15 +191,6 @@
       "title": "asfefq sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
       "url": "https://www.youtube.com/watch?v=u8XFFTWwSvY",
       "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-    },
-    {
-      "institutionId": 1,  
-      "userId": 2,
-      "id": 3,
-      "type": "video",
-      "title": "asfefq sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "url": "https://www.youtube.com/watch?v=7L0v04A78rU",
-      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     }
   ],
   "feed": [
@@ -269,38 +236,15 @@
             ]
           }
       }
-    },
-    { "article": {
-          "institutionId": 2,  
-          "userId": 2,
-          "id": 3,
-          "type": "Article",
-          "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-          "files": null,
-          "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-        }
-    },
-    { "video": {
-        "institutionId": 2,  
-        "userId": 3,
-        "id": 4,
-        "type": "video",
-        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-        "url": "https://www.youtube.com/watch?v=Qtb11P1FWnc",
-        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-      }
     }
   ],
   "services": [
     { "id": 1, "name": "service 1", "description": "esrjkgergn awefqwef", "institutionId": 2}
-    { "id": 2, "name": "service 2", "description": "esrjkgergn awefqwef", "institutionId": 2}
-    { "id": 3, "name": "service 3", "description": "esrjkgergn awefqwef", "institutionId": 2}
+    { "id": 2, "name": "service 2", "description": "esrjkgergn awefqwef", "institutionId": 2},
   ],
   "praying": [
     { "id": 1, "userId": 2, "institutionId": 2, "pray_for": " I need 10 millions", "date": "08/09/2018" },
-    { "id": 2, "userId": 3, "institutionId": 2, "pray_for": " I need 110 millions", "date": "08/07/2018" },
-    { "id": 3, "userId": 3, "institutionId": 2, "pray_for": " I need 340 millions", "date": "02/09/2018" },
-    { "id": 4, "userId": 1, "institutionId": 2, "pray_for": " I need 120 millions", "date": "01/09/2018" }
+    { "id": 2, "userId": 3, "institutionId": 2, "pray_for": " I need 110 millions", "date": "08/07/2018" }
   ],
   "institutions": [
     {
@@ -322,7 +266,6 @@
   ],
   "groups": [
     {"id": 1, "name": "music", "description": "About music", "userId": 1, "institutionId": 2, "members": [ {"fullName": "Rat tatuille", "userId": 1}, {"fullName": "Other person", "userId": 2}] },
-    {"id": 2, "name": "asdfwef ", "description": "About mqweqwd qd", "userId": 2, "institutionId": 2, "members": [ {"fullName": "Rat tatuille", "userId": 1}, {"fullName": "Other person", "userId": 2}] },
-    {"id": 3, "name": "fhyjfyu", "description": "About ergweg", "userId": 1, "institutionId": 2, "members": [ {"fullName": "Rat tatuille", "userId": 1}, {"fullName": "Other person", "userId": 2}] }
+    {"id": 2, "name": "asdfwef ", "description": "About mqweqwd qd", "userId": 2, "institutionId": 2, "members": [ {"fullName": "Rat tatuille", "userId": 1}, {"fullName": "Other person", "userId": 2}] }
   ]
 }
