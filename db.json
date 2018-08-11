@@ -1,25 +1,33 @@
 {
-  "Articles": [
-    {
-      "institutionId": 1,  
+  "Articles": [{
+      "institutionId": 1,
       "userId": 1,
       "id": 1,
       "type": "Article",
       "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "files": [
-        {"id": 1, "url": "https://www.mercurynews.com/wp-content/uploads/2018/05/bng-l-warriors-0601-1571-e1527834123801.jpg", "userId": 1}
-      ],
+      "files": [{
+        "id": 1,
+        "url": "https://www.mercurynews.com/wp-content/uploads/2018/05/bng-l-warriors-0601-1571-e1527834123801.jpg",
+        "userId": 1
+      }],
       "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     },
     {
-      "institutionId": 1,  
+      "institutionId": 1,
       "userId": 1,
       "id": 2,
       "type": "Article",
       "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "files": [
-        {"id": 1, "url": "https://www.mercurynews.com/wp-content/uploads/2018/05/bng-l-warriors-0601-1571-e1527834123801.jpg", "userId": 1},
-        {"id": 22, "url": "https://www.denverpost.com/wp-content/uploads/2018/06/964676792.jpg?w=525", "userId": 1}
+      "files": [{
+          "id": 1,
+          "url": "https://www.mercurynews.com/wp-content/uploads/2018/05/bng-l-warriors-0601-1571-e1527834123801.jpg",
+          "userId": 1
+        },
+        {
+          "id": 22,
+          "url": "https://www.denverpost.com/wp-content/uploads/2018/06/964676792.jpg?w=525",
+          "userId": 1
+        }
       ],
       "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     }
@@ -29,8 +37,7 @@
     "userId": 243874,
     "institutionId": 1
   },
-  "users": [
-    {
+  "users": [{
       "id": 1,
       "name": "Leanne Graham",
       "username": "Bret",
@@ -45,20 +52,25 @@
       },
       "phone": "1-770-736-8031 x56442",
       "role": "user",
-      "groups": [
-        { "id": 1, "name": "Music Group", "description": "Its a music group"},
-        { "id": 2, "name": "Pop Group", "description": "Its a Pop group"}
-      ],
-      "institutions": [
+      "groups": [{
+          "id": 1,
+          "name": "Music Group",
+          "description": "Its a music group"
+        },
         {
           "id": 2,
-          "name": "Romaguera-Crona",
-          "email": "Romaguera-Crona@example.com",
-          "userId": 3,
-          "active": true,
-          "insitutionParentId": 1
+          "name": "Pop Group",
+          "description": "Its a Pop group"
         }
-      ]  
+      ],
+      "institutions": [{
+        "id": 2,
+        "name": "Romaguera-Crona",
+        "email": "Romaguera-Crona@example.com",
+        "userId": 3,
+        "active": true,
+        "insitutionParentId": 1
+      }]
     },
     {
       "id": 2,
@@ -75,20 +87,25 @@
       },
       "phone": "1-770-736-8031 x56442",
       "role": "user",
-      "groups": [
-        { "id": 1, "name": "Music Group", "description": "Its a music group"},
-        { "id": 3, "name": "afwef efp", "description": "Its a Pop group"}
-      ],
-      "institutions": [
+      "groups": [{
+          "id": 1,
+          "name": "Music Group",
+          "description": "Its a music group"
+        },
         {
-          "id": 2,
-          "name": "Romaguera-Crona",
-          "email": "Romaguera-Crona@example.com",
-          "userId": 3,
-          "active": true,
-          "insitutionParentId": 1
+          "id": 3,
+          "name": "afwef efp",
+          "description": "Its a Pop group"
         }
-      ] 
+      ],
+      "institutions": [{
+        "id": 2,
+        "name": "Romaguera-Crona",
+        "email": "Romaguera-Crona@example.com",
+        "userId": 3,
+        "active": true,
+        "insitutionParentId": 1
+      }]
     },
     {
       "id": 3,
@@ -105,12 +122,18 @@
       },
       "phone": "1-770-736-8031 x56442",
       "role": "user",
-      "groups": [
-        { "id": 1, "name": "Music Group", "description": "Its a music group"},
-        { "id": 3, "name": "afwef efp", "description": "Its a Pop group"}
-      ],
-      "institutions": [
+      "groups": [{
+          "id": 1,
+          "name": "Music Group",
+          "description": "Its a music group"
+        },
         {
+          "id": 3,
+          "name": "afwef efp",
+          "description": "Its a Pop group"
+        }
+      ],
+      "institutions": [{
           "id": 2,
           "name": "Romaguera-Crona",
           "email": "Romaguera-Crona@example.com",
@@ -126,11 +149,10 @@
           "active": true,
           "insitutionParentId": null
         }
-      ] 
+      ]
     }
   ],
-  "events": [
-    {
+  "events": [{
       "id": 1,
       "institutionId": 1,
       "name": "New event",
@@ -142,10 +164,18 @@
       "agenda": {
         "title": "ergergre gwgw",
         "description": "This is a descr",
-        "items": [
-          { "note": "weweew", "time": "2:00 PM"},
-          { "note": "fgdbhg ", "time": "3:00 PM"},
-          { "note": "ioliodsfb", "time": "4:00 PM"}
+        "items": [{
+            "note": "weweew",
+            "time": "2:00 PM"
+          },
+          {
+            "note": "fgdbhg ",
+            "time": "3:00 PM"
+          },
+          {
+            "note": "ioliodsfb",
+            "time": "4:00 PM"
+          }
         ]
       }
     },
@@ -161,21 +191,47 @@
       "agenda": {
         "title": "ergergre gwgw",
         "description": "This is a descr",
-        "items": [
-          { "note": "weweew", "time": "3:00 PM"},
-          { "note": "fgdbhg ", "time": "3:40 PM"},
-          { "note": "ioliodsfb", "time": "6:00 PM"}
+        "items": [{
+            "note": "weweew",
+            "time": "3:00 PM"
+          },
+          {
+            "note": "fgdbhg ",
+            "time": "3:40 PM"
+          },
+          {
+            "note": "ioliodsfb",
+            "time": "6:00 PM"
+          }
         ]
       }
     }
   ],
-  "tasks": [
-    { "id": 1, "name": "sdfwfw", "description": "awefwew gwgwwf fgwg", "institutionId": 1, "userIds": [ 1 ], "type": "efer", "repeat": "weekly", "startDate": "09/09/2018", "endDate": "09/09/2018"},
-    { "id": 2, "name": "sdfwfw", "description": "awefwew gwgwwf fgwg", "institutionId": 1, "userId": [1, 2], "type": "efer", "repeat": "weekly", "startDate": "09/09/2018", "endDate": "09/09/2018"}
-  ],
-  "videos": [
+  "tasks": [{
+      "id": 1,
+      "name": "sdfwfw",
+      "description": "awefwew gwgwwf fgwg",
+      "institutionId": 1,
+      "userIds": [1],
+      "type": "efer",
+      "repeat": "weekly",
+      "startDate": "09/09/2018",
+      "endDate": "09/09/2018"
+    },
     {
-      "institutionId": 1,  
+      "id": 2,
+      "name": "sdfwfw",
+      "description": "awefwew gwgwwf fgwg",
+      "institutionId": 1,
+      "userId": [1, 2],
+      "type": "efer",
+      "repeat": "weekly",
+      "startDate": "09/09/2018",
+      "endDate": "09/09/2018"
+    }
+  ],
+  "videos": [{
+      "institutionId": 1,
       "userId": 1,
       "id": 1,
       "type": "video",
@@ -184,7 +240,7 @@
       "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     },
     {
-      "institutionId": 1,  
+      "institutionId": 1,
       "userId": 1,
       "id": 2,
       "type": "video",
@@ -193,22 +249,30 @@
       "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     }
   ],
-  "feed": [
-    { "streaming": { "url": "https://www.youtube.com/watch?v=09R8_2nJtjg", "institutionId": 2} },
-    { "article": {
-          "institutionId": 2,  
-          "userId": 1,
-          "id": 1,
-          "type": "Article",
-          "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-          "files": [
-            {"id": 1, "url": "https://www.mercurynews.com/wp-content/uploads/2018/05/bng-l-warriors-0601-1571-e1527834123801.jpg", "userId": 1}
-          ],
-          "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-        }
+  "feed": [{
+      "streaming": {
+        "url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+        "institutionId": 2
+      }
     },
-    { "video": {
-        "institutionId": 2,  
+    {
+      "article": {
+        "institutionId": 2,
+        "userId": 1,
+        "id": 1,
+        "type": "Article",
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "files": [{
+          "id": 1,
+          "url": "https://www.mercurynews.com/wp-content/uploads/2018/05/bng-l-warriors-0601-1571-e1527834123801.jpg",
+          "userId": 1
+        }],
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      }
+    },
+    {
+      "video": {
+        "institutionId": 2,
         "userId": 1,
         "id": 1,
         "type": "video",
@@ -217,37 +281,63 @@
         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
       }
     },
-    { "event": {
-          "id": 1,
-          "institutionId": 2,
-          "name": "New event",
-          "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-          "userId": 1,
-          "startDate": "08/08/2018",
-          "start": "2:00 PM",
-          "ends": "5:00 PM",
-          "agenda": {
-            "title": "ergergre gwgw",
-            "description": "This is a descr",
-            "items": [
-              { "note": "weweew", "time": "2:00 PM"},
-              { "note": "fgdbhg ", "time": "3:00 PM"},
-              { "note": "ioliodsfb", "time": "4:00 PM"}
-            ]
-          }
+    {
+      "event": {
+        "id": 1,
+        "institutionId": 2,
+        "name": "New event",
+        "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "userId": 1,
+        "startDate": "08/08/2018",
+        "start": "2:00 PM",
+        "ends": "5:00 PM",
+        "agenda": {
+          "title": "ergergre gwgw",
+          "description": "This is a descr",
+          "items": [{
+              "note": "weweew",
+              "time": "2:00 PM"
+            },
+            {
+              "note": "fgdbhg ",
+              "time": "3:00 PM"
+            },
+            {
+              "note": "ioliodsfb",
+              "time": "4:00 PM"
+            }
+          ]
+        }
       }
     }
   ],
-  "services": [
-    { "id": 1, "name": "service 1", "description": "esrjkgergn awefqwef", "institutionId": 2}
-    { "id": 2, "name": "service 2", "description": "esrjkgergn awefqwef", "institutionId": 2},
-  ],
-  "praying": [
-    { "id": 1, "userId": 2, "institutionId": 2, "pray_for": " I need 10 millions", "date": "08/09/2018" },
-    { "id": 2, "userId": 3, "institutionId": 2, "pray_for": " I need 110 millions", "date": "08/07/2018" }
-  ],
-  "institutions": [
+  "services": [{
+    "id": 1,
+    "name": "service 1",
+    "description": "esrjkgergn awefqwef",
+    "institutionId": 2
+  }, {
+    "id": 2,
+    "name": "service 2",
+    "description": "esrjkgergn awefqwef",
+    "institutionId": 2
+  }],
+  "praying": [{
+      "id": 1,
+      "userId": 2,
+      "institutionId": 2,
+      "pray_for": " I need 10 millions",
+      "date": "08/09/2018"
+    },
     {
+      "id": 2,
+      "userId": 3,
+      "institutionId": 2,
+      "pray_for": " I need 110 millions",
+      "date": "08/07/2018"
+    }
+  ],
+  "institutions": [{
       "id": 2,
       "name": "Romaguera-Crona",
       "email": "Romaguera-Crona@example.com",
@@ -264,8 +354,33 @@
       "insitutionParentId": null
     }
   ],
-  "groups": [
-    {"id": 1, "name": "music", "description": "About music", "userId": 1, "institutionId": 2, "members": [ {"fullName": "Rat tatuille", "userId": 1}, {"fullName": "Other person", "userId": 2}] },
-    {"id": 2, "name": "asdfwef ", "description": "About mqweqwd qd", "userId": 2, "institutionId": 2, "members": [ {"fullName": "Rat tatuille", "userId": 1}, {"fullName": "Other person", "userId": 2}] }
+  "groups": [{
+      "id": 1,
+      "name": "music",
+      "description": "About music",
+      "userId": 1,
+      "institutionId": 2,
+      "members": [{
+        "fullName": "Rat tatuille",
+        "userId": 1
+      }, {
+        "fullName": "Other person",
+        "userId": 2
+      }]
+    },
+    {
+      "id": 2,
+      "name": "asdfwef ",
+      "description": "About mqweqwd qd",
+      "userId": 2,
+      "institutionId": 2,
+      "members": [{
+        "fullName": "Rat tatuille",
+        "userId": 1
+      }, {
+        "fullName": "Other person",
+        "userId": 2
+      }]
+    }
   ]
 }
